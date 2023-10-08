@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	outline: none;
+	border: none;
+}
+body {
+	display: flex;
+  }
+.nav{
+	position: sticky;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	background-color: rgb(110, 11, 177);
+	width: 250px;
+	height: 100vh;
+	color: white;
+	padding: 0 40px;
+	overflow: hidden;
+}
+.logo{
+	padding: 16px;
+	height: 80px;
+}
+.list-item {
+	height: 88%;
+	position: relative;
+	list-style: none;
+	width: 100%;
+	PADDING: 0;
+}
+.list-item li{
+	margin: 15px 0px;
+	padding: 1REM;
+	border-radius: 8px;
+	transition: .3s;
+	text-decoration: none;
+
+	
+}
+.list-item li a{
+	text-decoration: none;
+}
+.list-item li:hover{
+	background-color: rgb(109, 22, 152);
+}
+.list-item li i{
+	font-size: 22px;
+	color: white;
+	margin-right: 12px;
+	
+}
+.list-item li span{
+	font-size: 15px;
+	color: WHITE;
+	
+ }
+ .log-out{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+ }
