@@ -1,2 +1,86 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+# drop down
+     <div class="dropdown-button d-flex">
+          <div class="dropdown">
+            <button class="btn  button dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fa-solid fa-envelope"></i> Massage
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Gf send you a massage</a>
+              <a class="dropdown-item" href="#">Gf send you a massage</a>
+              <a class="dropdown-item" href="#">Gf send you a massage</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="btn  button dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fa-solid fa-envelope"></i> Notification
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Profile Update</a>
+              <a class="dropdown-item" href="#">New user added</a>
+              <a class="dropdown-item" href="#">password change</a>
+            </div>
+          </div>
+        </div>
+
+/* ..........................drop down button section................. */
+.button{
+	background-color:#191C24 ;
+	color: rgb(104, 101, 101);
+}
+.button:hover{
+	color: #FF000C;
+}
+.button i{
+	color: #FF000C;
+	padding: 12px;
+	background-color: black;
+	border-radius: 50%;
+	margin-right: 12px;
+
+}
+.dropdown-menu {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1000;
+	display: none;
+	min-width: 206px;
+	padding: .5rem 0;
+	margin: .125rem 0 0;
+	font-size: 1rem;
+	color: #0d0e0e;
+	text-align: left;
+	list-style: none;
+	background-color: #191C24;
+	background-clip: padding-box;
+	border: 1px solid rgba(0,0,0,.15);
+	border-radius: .25rem;
+}
+.dropdown-menu a{
+	color: white;
+	background-color: #191C24;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+	color: #FF000C;
+	background-color:#191C24;
+}
+.btn-check:focus + .btn, .btn:focus {
+	outline: none;
+  }
+.show {
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
